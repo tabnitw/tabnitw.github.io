@@ -1,1 +1,319 @@
-Hello World
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="tab.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet"
+        href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css">
+
+    <title>TAB</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
+            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                <img src="tab/tabLogo.png" alt="" class="w-25 h-auto">
+            </a>
+
+
+
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+                <li class="nav-item"><a href="#about-tab" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#events-tab" class="nav-link">Events</a></li>
+                <li class="nav-item"><a href="#testimonials-tab" class="nav-link">Testimonials</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Our Team</a></li>
+            </ul>
+        </header>
+    </div>
+
+    <div class="container-fluid pb-1" style="background-color: #fdfdfd;">
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6">
+                    <div class="mb-5 mb-lg-0 text-center text-lg-start">
+                        <h1 class="display-1 lh-1 mb-3">Technical Association of Biotechnology</h1>
+                        <p class="lead fw-normal text-muted mb-3">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae neque vitae nam natus
+                        </p>
+                        <!-- <button type="button" class="btn btn-outline-dark">About TAB</button> -->
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div>
+                        <img class="w-100" src="tab/landing/landing-image-1-nobg.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="position-relative" style="z-index: 2;">
+                <div class="position-absolute top-100 start-50 translate-middle">
+                    <div class="animate__animated animate__slideInDown animate__infinite animate__slow">
+                        <i class="fa-solid fa-arrow-down-long fs-5"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div>
+        <div class="position-relative">
+            <div class="custom-shape-divider-top-1645286916">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                    preserveAspectRatio="none">
+                    <path d="M0,0V7.23C0,65.52,268.63,112.77,600,112.77S1200,65.52,1200,7.23V0Z" class="shape-fill">
+                    </path>
+                </svg>
+            </div>
+        </div>
+
+        <div class="py-5 bg-custom-1">
+
+        </div>
+
+        <div class="px-4 py-5 mb-5 bg-gradient-1 text-center text-white" id="about-tab">
+            <h1 class="display-5 fw-bold pt-5">Technical Association of Biotechnology</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="mb-4">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat temporibus at suscipit repudiandae
+                    rem autem!!!
+                </p>
+            </div>
+
+            <div class="container">
+                <div class="row align-items-md-stretch">
+                    <div class="col-md-6">
+                        <div class="h-100 p-5 text-white bg-custom-2 rounded-3 shadow-type-1">
+                            <h2>Our Mission</h2>
+                            <p>Swap the background-color utility and add a `.text-*` color utility to mix up the
+                                jumbotron
+                                look. Then, mix and match with additional component themes and more.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="h-100 p-5 text-color-1 bg-white border rounded-3 shadow-type-1">
+                            <h2>Our Vision</h2>
+                            <p>Or, keep it light and add a border for some added definition to the boundaries of your
+                                content. Be sure to look under the hood at the source HTML here as we've adjusted the
+                                alignment and sizing of both column's content for equal-height.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <h1 class="display-5 fw-bold pt-5 text-center text-color-2" id="events-tab">TAB Recent Events</h1>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="container my-5">
+                    <div class="row p-4 pe-lg-0 pt-lg-5 align-items-center rounded-3 shadow-lg">
+                        <div class="col-lg-7 p-3 p-lg-5 pe-lg-0 pt-lg-3">
+                            <h1 class="display-6 fw-bold lh-1">Two Day National Conference on Advancements in
+                                Biotechnology</h1>
+                            <p class="lead pt-3 pe-2">
+                                Today's evolving biotechnology landscape demands more than just researchers. It demands
+                                entrepreneurs and leaders. As the pandemic paves way for the biotech industry to emerge
+                                indispensable, it is time to show the youth the scope and need for innovation.
+                            </p>
+                        </div>
+                        <div class="col-lg-4 p-0 shadow-lg">
+                            <img class="w-100 rounded-lg-3" src="tab/tab-events/tab-event-1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container my-5">
+                    <div class="row p-5 pe-lg-0 pt-lg-5 align-items-center rounded-3 shadow-lg">
+                        <div class="col-lg-4 p-0 shadow-lg">
+                            <img class="w-100 rounded-lg-3" src="tab/tab-events/tab-event-2.png" alt="">
+                        </div>
+                        <div class="col-lg-7 p-3 p-lg-5 pe-lg-0 pt-lg-3">
+                            <h1 class="display-6 fw-bold lh-1">CareerXplore</h1>
+                            <p class="lead fs-5 pt-3">
+                                We're back with "CareerXplore" series, here's an interesting career path you can explore
+                                - Academic Research. Research plays a vital role in the progress of science. It opens
+                                you up to diverse opinions and innovative ideas. When you're committed to learning,
+                                you're always in a place of growth.
+                                <br>
+                                <i>"Without the love of research, mere knowledge and intelligence cannot make a
+                                    scientist."</i>
+                                - Irène Joliot-Curie
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container my-5">
+                    <div class="row p-4 pe-lg-0 pt-lg-5 align-items-center rounded-3 shadow-lg">
+                        <div class="col-lg-7 p-3 p-lg-5 pe-lg-0 pt-lg-3">
+                            <h1 class="display-6 fw-bold lh-1">Battle of Bioinnovations</h1>
+                            <p class="lead pt-2">
+                                India generates 62 million tonnes of waste each year.
+
+                                This waste is choking our planet even though it has immense potential to be reused,
+                                recycled, become fuel, and so much more. Some of it, like agricultural produce, or even
+                                fast fashion, would never be wasted in the first place, if managed correctly.
+                                Incorrectly disposed biomedical wastes are another big concern for public health and
+                                environment alike.
+                                <br>
+                                Hello innovators! Join us on a 48-hour ideathon to tackle waste management through your
+                                technological genius.
+                            </p>
+                        </div>
+                        <div class="col-lg-4 p-0 shadow-lg">
+                            <img class="w-100 rounded-lg-3" src="tab/tab-events/tab-event-3.jfif" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+
+    <!-- Testimonials -->
+
+    <div class="gtco-testimonials" id="testimonials-tab">
+        <h1 class="display-5 fw-bold pt-5 text-center text-color-3" id="testimonials-tab">Team Testimonials</h1>
+        <div class="owl-carousel owl-carousel1 owl-theme">
+            <div>
+                <div class="card text-center"><img class="card-img-top" src="tab/dr-k-narasimhulu.jpg" alt="">
+                    <div class="card-body">
+                        <h5>Dr K. Narasimhulu <br />
+                            <span> Head of Department </span><br />
+                            <span> Department of Biotechnology </span>
+                        </h5>
+                        <p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
+                            impedit quo minus id quod maxime placeat ” </p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="card text-center"><img class="card-img-top" src="tab/dr-shyam.jpg" alt="">
+                    <div class="card-body">
+                        <h5>Dr Perugu Shyam <br />
+                            <span> Faculty Advisor </span><br />
+                            <span> Technical Association of Biotechnology </span>
+                        </h5>
+                        <p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
+                            impedit quo minus id quod maxime placeat ” </p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="card text-center"><img class="card-img-top" src="tab/dr-urmila.jpg" alt="">
+                    <div class="card-body">
+                        <h5>Dr Urmila Saxena <br />
+                            <span> Financial Advisor </span><br />
+                            <span> Technical Association of Biotechnology </span>
+                        </h5>
+                        <p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
+                            impedit quo minus id quod maxime placeat ” </p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="card text-center"><img class="card-img-top" src="tab/team/nandini-kanoria.jpg" alt="">
+                    <div class="card-body">
+                        <h5>Nandini Kanoria <br />
+                            <span> General Secretary </span><br />
+                            <span> Technical Association of Biotechnology </span>
+                        </h5>
+                        <p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
+                            impedit quo minus id quod maxime placeat ” </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-6 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                    <svg class="bi" width="30" height="24">
+                        <use xlink:href="#bootstrap" /></svg>
+                </a>
+                <span class="fs-5 text-muted">Technical Association of Biotechnology</span>
+            </div>
+
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-5">
+                    <a class="fs-3 text-muted" href="https://www.instagram.com/tab_nitw/">
+                        <i class="fa-brands fa-instagram text-color-2"></i>
+                    </a>
+                </li>
+                <li class="ms-3">
+                    <a class="fs-3 text-muted" href="https://www.linkedin.com/company/tab-nitw/">
+                        <i class="fa-brands fa-linkedin text-color-2"></i>
+                    </a>
+                </li>
+                <li class="ms-3">
+                    <a class="fs-3 text-muted" href="https://www.facebook.com/nitwtab">
+                        <i class="fa-brands fa-facebook text-color-2"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </div>
+
+
+
+    <!-- JavaScript -->
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
